@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='styleSheet' href='/resources/bootstrap-3.3.5-dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    if (stylelist)
+     each item in stylelist
+       link(rel='styleSheet' href='#{item}')
+    script(src='/resources/jquery/jquery-2.2.3.min.js')
+    script(src='/resources/bootstrap-3.3.5-dist/js/bootstrap.min.js')
+    if (scriptlist)
+     each item in scriptlist
+      script(src='#{item}')
+  body
+    block content

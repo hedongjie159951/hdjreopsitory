@@ -1,0 +1,21 @@
+//
+   Created by Administrator on 2016/5/2.
+extends layout
+block content
+    div.login_body
+    div.show_login
+    div.talk_all 聊天大厅
+        div.show_box
+        div.input_box
+            textarea.input_send
+        div.btn_box
+            span.btn.btn-primary.send_btn 发送
+    div.talk_list
+     div.title_box.clearfix
+       span.tx_box
+        img(src='#{txImg}')
+       span.name_box #{user}
+     div.admin_list
+      div.admin_show_box
+       div.clearfix.user_box
+

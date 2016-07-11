@@ -1,0 +1,19 @@
+//
+   Created by Administrator on 2016/5/1.
+extends layout
+block content
+    div.login_body
+    div.login_box
+            h3.text-center.titel_Color 请上传头像以及用户名
+            div.col-sm-6.col-sm-offset-3.input_box.change_mt
+                div.show_img
+                    span.show_img_box
+                div.btn_box_C
+                 button.btn.btn-success.change_W.show_file 点击上传
+                input(type='file').file
+            div.col-sm-6.col-sm-offset-3.input_box.change_mtL
+                span.glyphicon.glyphicon-user.user_fiv
+                input(type='text' placeholder='请输入用户名').form-control.change_pl.user_name
+            div.col-sm-6.col-sm-offset-3.input_box.change_mtL
+              div.btn_box_C
+                button.btn.btn-success.change_W.send_btn 确定

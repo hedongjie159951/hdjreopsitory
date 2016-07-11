@@ -1,0 +1,157 @@
+.body_all{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;top: 0px;
+    background: url("../images/girlbg.jpg");
+    background-size: 100% 100%;
+}
+.talk_all{
+   width: 50%;
+    position: fixed;
+    left: 50%;top: 50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    background-color: #4DAF51;
+    border-radius: 8px;
+    padding: 18px;
+    z-index: 9;
+}
+.show_box{
+    height: 300px;
+    max-height: 300px;
+    overflow: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.input_send{
+    width: 100%;
+    height: 108px;
+    max-width: 100%;
+    max-height: 108px;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 8px;
+}
+.input_box{
+    margin-top: 18px;
+}
+.btn_box{
+    text-align: right;
+}
+#includ{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    background-color: #ffffff;
+}
+
+.file{
+    display: none!important;
+}
+.show_img{
+   text-align: center;
+}
+.show_img_box{
+    display: inline-block;
+    width: 118px;
+    height: 118px;
+    background-color: #ffffff;
+}
+.btn_box_C{
+    text-align: center;
+    margin-top: 18px;
+}
+.show_img_box img{
+    width: 100%;
+    height: 100%;
+}
+.talk_list{
+    width: 228px;
+    height: 600px;
+    position: fixed;
+    right: 80px;
+    top: 20px;
+    z-index: 9;
+    background-color: #55AB69;
+    border-radius: 8px;
+}
+.tx_box{
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    padding:8px;
+    float: left;
+}
+.tx_box img{
+    width: 100%;
+    height: 100%;
+}
+.title_box{
+    margin-top: 12px;
+}
+.name_box{
+    padding-left: 8px;
+    font-size: 16px;
+    float: left;
+    line-height: 40px;
+}
+.admin_list{
+    width: 100%;
+    padding: 18px 8px;
+}
+.admin_show_box{
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 480px;
+    overflow: auto;
+    padding: 0px 8px;
+}
+.user_box{
+    margin-top: 12px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.user_box:hover{
+    background-color: #c0c0c0;
+}
+.admin_show_box .user_box .user_img{
+    display: inline-block;
+    float: left;
+    width: 12px;
+    height: 12px;
+}
+.admin_show_box .user_box .user_img img{
+    width: 100%;
+    height: 100%;
+}
+.admin_show_box .user_box .user_name{
+    float: left;
+    padding-left: 6px;
+}
+.show_login{
+    width: 50%;
+    position: fixed;
+    left: 50%;
+    top: 20px;
+    z-index: 9;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    height: 30px;
+}
+.show_name_box{
+    position: absolute;
+    top: 0px;
+    color: #ffffff;
+}
+.text_right{
+    text-align: right;
+}

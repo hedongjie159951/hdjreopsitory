@@ -1,0 +1,16 @@
+//
+   Created by Administrator on 2016/5/1.
+extends layout
+block content
+ div.login_body
+ div.login_box
+    h2.text-center.titel_Color Welcome
+    div.col-sm-6.col-sm-offset-3.input_box.change_mt
+        span.glyphicon.glyphicon-user.user_fiv
+        input(type='text' placeholder='请输入用户名').form-control.change_pl.user_name
+    div.col-sm-6.col-sm-offset-3.input_box.change_mtL
+        span.glyphicon.glyphicon-asterisk.user_fiv
+        input(type='password' placeholder='请输入密码').form-control.change_pl.user_pwd
+    div.col-sm-6.col-sm-offset-3.input_box.change_mtL
+        button.btn.btn-success.change_W.send_login 登陆
+        a.btn.btn-danger.change_W.float_right 注册

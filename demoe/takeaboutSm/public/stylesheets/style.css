@@ -1,0 +1,63 @@
+body{
+  background-color:#F3F3F3;
+  font-family: "Microsoft YaHei";
+}
+.login_body{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/loginbodygb.jpg");
+  background-size: 100% 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.titel_Color{
+  color: #ffffff;
+}
+.login_box{
+  width: 40%;
+  position: fixed;
+  z-index: 999;
+  left: 50%;top: 50%;
+  border-radius: 8px;
+  -webkit-transform: translate(-50%,-60%);
+  -moz-transform: translate(-50%,-60%);
+  -ms-transform: translate(-50%,-60%);
+  -o-transform: translate(-50%,-60%);
+  transform: translate(-50%,-60%);
+}
+.show_border_b{
+  border-bottom: 1px #aaaaaa dashed;
+  padding-bottom: 8px;
+}
+.change_mt{
+  margin-top: 18px;
+}
+.change_mtL{
+  margin-top: 28px;
+}
+.change_W{
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.float_right{
+  float: right;
+}
+.user_fiv{
+  font-size: 25px;
+  position: absolute;
+  left:28px;top: 5px;
+}
+.change_pl{
+  padding-left: 43px;
+}
+.input_box{
+  position: relative;
+}
+
